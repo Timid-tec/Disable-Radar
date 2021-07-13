@@ -21,11 +21,11 @@
 
 #define NoShow_Radar 1<<12
 
-//Bool value
+/* Bool value */
 bool g_isRadarEnabled;
 
 
-//ConVars
+/* ConVars */
 ConVar g_cvEnabledRadar;
 
 
@@ -43,10 +43,10 @@ public void OnPluginStart()
 	g_cvEnabledRadar = CreateConVar("sm_disableradar_enabled", "1", "Should we show radar on top-left. (0 off, 1 on)");
 	g_cvEnabledRadar.AddChangeHook(OnCVarChanged);
 	
-	//Hook Events
+	/* Hook Events */
 	HookEvent("player_spawn", Event_PlayerSpawn);
 	
-	//Bool Vlaues
+	/* Bool Vlaues */
 	g_isRadarEnabled = g_cvEnabledRadar.BoolValue;
 }
 
