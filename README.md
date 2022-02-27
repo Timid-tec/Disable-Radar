@@ -8,7 +8,7 @@ A source mod plugin simply made to remove the radar on the top right section in 
 - sm_disableradar_enabled - Should we show radar on top-left. (0 off, 1 on)
 
 # How to Install
-- Donwload DisabledRadar.smx and put into /csgo/addons/sourcemod/plugins
+- Donwload Disable-Radar and decompile the .zip, then add Disable-Radar.smx in /csgo/addons/sourcemod/plugins
 
 # Updates
 
