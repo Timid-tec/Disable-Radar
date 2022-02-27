@@ -1,16 +1,16 @@
 # Disable-Radar
 A source mod plugin simply made to remove the radar on the top right section in game.
 
-# Game Supported
+## Game Supported
 - CS:GO
 
-# ConVars
+## ConVars
 - sm_disableradar_enabled - Should we show radar on top-left. (0 off, 1 on)
 
-# How to Install
+## How to Install
 - Donwload Disable-Radar and decompile the .zip, then add Disable-Radar.smx in /csgo/addons/sourcemod/plugins
 
-# Updates
+## Updates
 
 | Version | Change-Log          |
 | ------- | ------------------ |
