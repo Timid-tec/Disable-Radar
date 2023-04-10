@@ -15,4 +15,5 @@
 
 | Version | Change-Log          |
 | ------- | ------------------ |
+| 4.2.1   | Added some changes to include, and other issues fixed |
 | 4.2.0   | Added if (client && GetClientTeam(client) > 1 || GetClientTeam(client) < 1) |
